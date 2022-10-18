@@ -17,7 +17,7 @@ int main()
 	world.AddPhysicsBody(ball);
 	ball.applyImpulse(Vector2f(.5,.3));
 	
-	// Create the floor, ceiling, left and right walls
+	// Create the floor, ceiling, left and right walls 
 	PhysicsRectangle floor, ceiling, wallLeft, wallRight, centerRect;
 	floor.setSize(Vector2f(800, 20));
 	floor.setCenter(Vector2f(400, 590));
